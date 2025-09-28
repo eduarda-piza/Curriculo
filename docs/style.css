@@ -1,0 +1,94 @@
+header{
+    text-align: center;
+    background-color: rgb(207, 207, 253, 0.6);
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.1rem 0.2rem 0.2rem 0.2rem;
+}
+
+body{
+    background-color: rgb(238, 241, 252);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+   background-color: rgb(218, 227, 255);
+   padding: 2rem;
+   margin: 0rem 0.5rem 1rem 1rem;
+   width: 10%;
+}
+
+.conteudo{
+padding: 0rem 1rem 1rem 1rem;
+width: 90%;
+}
+
+.itemmenu{
+    padding: 0,8rem;
+    margin: 2rem 1rem 1rem 0rem;
+    list-style: none;
+    border-bottom: solid rgb(212, 205, 247);
+}
+
+.itemmenu:hover{
+    background-color: #c3c3ff;
+}
+
+.list{
+    padding: 0rem;
+}
+
+section{
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 1rem;
+}
+
+#sec1{
+    background-color: rgb(236, 232, 255);
+}
+
+#sec2{
+    background-color: rgb(236, 232, 255);
+}
+
+#sec3{
+    background-color: rgb(236, 232, 255);
+}
+
+#sec4{
+    background-color: rgb(236, 232, 255);
+}
+
+#sec5{
+    background-color: rgb(236, 232, 255);
+}
+
+#sec6{
+    background-color: rgb(236, 232, 255);
+}
+
+a:link{
+    color:#1818e6;
+}
+
+a:visited{
+    color:#2c2c8f;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .menu {
+       width: 50vw;
+       padding: 2rem 5rem 2rem 4.5rem;
+       margin: 0rem 1rem 1.5rem 1rem;
+    }
+
+}
